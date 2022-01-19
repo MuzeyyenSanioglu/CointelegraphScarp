@@ -1,7 +1,9 @@
 ﻿using CointelegraphScarp.Entities;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
+using OpenQA.Selenium.Interactions;
 using OpenQA.Selenium.Support.UI;
+using SeleniumExtras.WaitHelpers;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,15 +19,16 @@ namespace CointelegraphScarp.Services
             WebDriver driver = new ChromeDriver();
             List<News> news = new List<News>();
             driver.Navigate().GoToUrl("https://cointelegraph.com/tags/bitcoin");
-            var elements = driver.FindElements(By.ClassName("post-card-inline__title"));
-            new WebDriverWait(driver, TimeSpan.FromSeconds(10));
+            var elements = driver.FindElements(By.XPath("/html[1]/body[1]"));
+
             foreach (WebElement element in elements)
             {
-                news.Add(new News()
-                {
-                    Head = element.Text,
-                    Contents = GetContents(element, driver)
-                });
+                element.FindElement(By.XPath("post-card-inline__title-link")).Click(); 
+                News item = new News();
+                item.Head = driver.FindElement(By.ClassName("post__title")).Text;//post__title
+                item.Contents = driver.FindElement(By.ClassName("post-content")).Text;
+                news.Add(item);
+                driver.Navigate().GoToUrl("https://cointelegraph.com/tags/bitcoin");
             }
             return news;   
         }

@@ -23,6 +23,10 @@ namespace CointelegraphScarp.Repositories
         {
             await _context.New.InsertOneAsync(news);
         }
+        public async Task CreateMany(List<News> news)
+        {
+            await _context.New.InsertManyAsync(news);
+        }
         public async Task<IEnumerable<News>> GetNews()
         {
             return await _context.New.Find(p => true).ToListAsync();
