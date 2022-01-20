@@ -48,6 +48,10 @@
               "target": "Package",
               "version": "[6.0.0, )"
             },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
             "MongoDB.Bson": {
               "target": "Package",
               "version": "[2.14.1, )"

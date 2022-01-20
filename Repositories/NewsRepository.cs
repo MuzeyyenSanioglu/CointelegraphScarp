@@ -1,5 +1,7 @@
 ﻿using CointelegraphScarp.DataAccess;
 using CointelegraphScarp.Entities;
+using CointelegraphScarp.Settings;
+using Microsoft.Extensions.Options;
 using MongoDB.Driver;
 using System;
 using System.Collections.Generic;
@@ -9,27 +11,53 @@ using System.Threading.Tasks;
 
 namespace CointelegraphScarp.Repositories
 {
-    public class NewsRepository
+    public class NewsRepository : INewsRepository
     {
 
-        private readonly NewsContext _context;
-
-        public NewsRepository(NewsContext context)
+        private readonly IMongoCollection<News> _collection;
+        public NewsRepository(IOptions<DatabaseSettings> settings)
         {
-            _context = context;
+            var client = new MongoClient(settings.Value.ConnectionString);
+            var database = client.GetDatabase(settings.Value.DatabaseName);
+            _collection = database.GetCollection<News>(settings.Value.CollectionName);
         }
 
-        public async Task Create(News news)
+
+        public async Task<bool> Create(News news)
         {
-            await _context.New.InsertOneAsync(news);
+            try
+            {
+                await _collection.InsertOneAsync(news);
+                return true;
+            }
+            catch (MongoWriteException)
+            {
+                return false;
+            }
         }
-        public async Task CreateMany(List<News> news)
+        public async Task<bool> CreateMany(List<News> news)
         {
-            await _context.New.InsertManyAsync(news);
+            try
+            {
+                await _collection.InsertManyAsync(news);
+                return true;
+            }
+            catch (MongoWriteException)
+            {
+                return false;
+            }
         }
-        public async Task<IEnumerable<News>> GetNews()
+        public async Task<List<News>?> GetNews()
         {
-            return await _context.New.Find(p => true).ToListAsync();
+            try
+            {
+                return await _collection.FindAsync(m => true).Result.ToListAsync();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                throw;
+            }
         }
     }
 

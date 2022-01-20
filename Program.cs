@@ -1,7 +1,11 @@
 ﻿using CointelegraphScarp.DataAccess;
 using CointelegraphScarp.Repositories;
 using CointelegraphScarp.Services;
+using CointelegraphScarp.Settings;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Options;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Support.UI;
@@ -13,30 +17,37 @@ namespace CointelegraphScarp
     {
         static void Main(string[] args)
         {
-            var builder = new ConfigurationBuilder()
-           .SetBasePath(Directory.GetCurrentDirectory())
-           .AddJsonFile("appsettings.json");
-            
+            var builder = new ConfigurationBuilder();
+            var host = BuildConfig(builder);
+
             var configuration = builder.Build();
             Program program = new Program();
-            program.WebCrawler(configuration);
+            program.WebCrawler(host);
             Console.WriteLine("Done..");
         }
-        public async void WebCrawler(IConfigurationRoot configuration)
+        public async void WebCrawler(IHost host)
         {
+            var hst = ActivatorUtilities.CreateInstance<NewsServices>(host.Services);
             WebCrawlerServices services = new WebCrawlerServices();
             var newsList = services.Scarpe();
-            NewsRepository newsRespository = new NewsRepository(GetContext(configuration));
-            foreach (var item in newsList)
-            {
-                await newsRespository.Create(item);
-            }
-           
+            hst.CreateMany(newsList);
+        }
+        static IHost BuildConfig(IConfigurationBuilder builder)
+        {
+            builder.SetBasePath(Directory.GetCurrentDirectory())
+                .AddJsonFile("appsettings.json", true, true)
+                .Build();
+
+            var host = Host.CreateDefaultBuilder()
+                .ConfigureServices((context, services) =>
+                {
+                    services.Configure<DatabaseSettings>(context.Configuration.GetSection(nameof(DatabaseSettings)));
+                    services.AddSingleton<IDatabaseSettings>(sp => sp.GetRequiredService<IOptions<DatabaseSettings>>().Value);
+                    services.AddScoped<NewsServices>();
+                    services.AddScoped<INewsRepository, NewsRepository>();
+                }).Build();
+            return host;
         }
 
-        public NewsContext GetContext(IConfigurationRoot configuration)
-        {
-            return new NewsContext(configuration["ConnectionString"], configuration["DatabaseName"]);
-        }
     }
 }

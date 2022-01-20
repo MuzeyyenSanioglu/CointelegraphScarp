@@ -10,13 +10,18 @@ namespace CointelegraphScarp.DataAccess
 {
     public  class NewsContext
     {
-        private string ConnectionString;
-        private string DatabaseName;
-       public NewsContext(string ConnectionString, string DatabaseName)
+        private readonly MongoClient _client;
+        private readonly IMongoDatabase   _database;
+        public  IMongoCollection<News> New { get; set; }
+        public NewsContext(string ConnectionString, string DatabaseName,string CollectionName)
         {
-            var client = new MongoClient(ConnectionString);
-            var database = client.GetDatabase(DatabaseName);
+            var _client = new MongoClient(ConnectionString);
+            var _database = _client.GetDatabase(DatabaseName);
+
+            New = _database.GetCollection<News>(CollectionName);
         }
-       public  IMongoCollection<News> New { get; set; }
+        
+        public IMongoClient Client => _client;
+        public IMongoDatabase Database => _database;    
     }
 }

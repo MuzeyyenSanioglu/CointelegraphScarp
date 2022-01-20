@@ -1,4 +1,5 @@
 ﻿using CointelegraphScarp.Entities;
+using MongoDB.Bson;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Interactions;
@@ -19,25 +20,22 @@ namespace CointelegraphScarp.Services
             WebDriver driver = new ChromeDriver();
             List<News> news = new List<News>();
             driver.Navigate().GoToUrl("https://cointelegraph.com/tags/bitcoin");
-            var elements = driver.FindElements(By.XPath("/html[1]/body[1]"));
-
-            foreach (WebElement element in elements)
+            var elements = driver.FindElements(By.XPath("//a[@class='post-card-inline__title-link']"));
+            List<string> urls = new List<string>();  
+            foreach (var element in elements)
+                urls.Add(element.GetAttribute("href"));  
+            foreach (string url in urls)
             {
-                element.FindElement(By.XPath("post-card-inline__title-link")).Click(); 
+                driver.Navigate().GoToUrl(url);
+                new WebDriverWait(driver, TimeSpan.FromSeconds(10));
                 News item = new News();
-                item.Head = driver.FindElement(By.ClassName("post__title")).Text;//post__title
+                item.ID = ObjectId.GenerateNewId();
+                item.Head = driver.FindElement(By.ClassName("post__title")).Text;
                 item.Contents = driver.FindElement(By.ClassName("post-content")).Text;
                 news.Add(item);
-                driver.Navigate().GoToUrl("https://cointelegraph.com/tags/bitcoin");
             }
+            driver.Quit();
             return news;   
-        }
-
-        public string  GetContents(IWebElement webElement,WebDriver driver)
-        {
-            webElement.Click();
-            var content = driver.FindElement(By.ClassName("post-content"));
-            return content.Text;  
         }
     }
 }
