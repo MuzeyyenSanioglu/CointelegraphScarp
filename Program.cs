@@ -30,7 +30,7 @@ namespace CointelegraphScarp
             var hst = ActivatorUtilities.CreateInstance<NewsServices>(host.Services);
             WebCrawlerServices services = new WebCrawlerServices();
             var newsList = services.Scarpe();
-            hst.CreateMany(newsList);
+            await hst.CreateMany(newsList);
         }
         static IHost BuildConfig(IConfigurationBuilder builder)
         {
