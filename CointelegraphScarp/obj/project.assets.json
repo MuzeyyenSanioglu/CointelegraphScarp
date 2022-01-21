@@ -1691,11 +1691,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\muzeyyen.sanioglu\\source\\repos\\CointelegraphScarp\\CointelegraphScarp\\CointelegraphScarp.csproj",
+      "projectUniqueName": "C:\\Users\\muzeyyen.sanioglu\\source\\repos\\CointelegraphScarp\\CointelegraphScarp\\CointelegraphScarp\\CointelegraphScarp.csproj",
       "projectName": "CointelegraphScarp",
-      "projectPath": "C:\\Users\\muzeyyen.sanioglu\\source\\repos\\CointelegraphScarp\\CointelegraphScarp\\CointelegraphScarp.csproj",
+      "projectPath": "C:\\Users\\muzeyyen.sanioglu\\source\\repos\\CointelegraphScarp\\CointelegraphScarp\\CointelegraphScarp\\CointelegraphScarp.csproj",
       "packagesPath": "C:\\Users\\muzeyyen.sanioglu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\muzeyyen.sanioglu\\source\\repos\\CointelegraphScarp\\CointelegraphScarp\\obj\\",
+      "outputPath": "C:\\Users\\muzeyyen.sanioglu\\source\\repos\\CointelegraphScarp\\CointelegraphScarp\\CointelegraphScarp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\muzeyyen.sanioglu\\AppData\\Roaming\\NuGet\\NuGet.Config",
