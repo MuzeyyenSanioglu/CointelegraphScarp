@@ -1,0 +1,17 @@
+C:\Users\muzeyyen.sanioglu\source\repos\CointelegraphScarp\CointelegraphScarp\WebScarp.DataAccess\obj\Debug\net6.0\WebScarp.DataAccess.csproj.AssemblyReference.cache
+C:\Users\muzeyyen.sanioglu\source\repos\CointelegraphScarp\CointelegraphScarp\WebScarp.DataAccess\obj\Debug\net6.0\WebScarp.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\muzeyyen.sanioglu\source\repos\CointelegraphScarp\CointelegraphScarp\WebScarp.DataAccess\obj\Debug\net6.0\WebScarp.DataAccess.AssemblyInfoInputs.cache
+C:\Users\muzeyyen.sanioglu\source\repos\CointelegraphScarp\CointelegraphScarp\WebScarp.DataAccess\obj\Debug\net6.0\WebScarp.DataAccess.AssemblyInfo.cs
+C:\Users\muzeyyen.sanioglu\source\repos\CointelegraphScarp\CointelegraphScarp\WebScarp.DataAccess\obj\Debug\net6.0\WebScarp.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\muzeyyen.sanioglu\source\repos\CointelegraphScarp\CointelegraphScarp\WebScarp.DataAccess\bin\Debug\net6.0\WebScarp.DataAccess.deps.json
+C:\Users\muzeyyen.sanioglu\source\repos\CointelegraphScarp\CointelegraphScarp\WebScarp.DataAccess\bin\Debug\net6.0\WebScarp.DataAccess.dll
+C:\Users\muzeyyen.sanioglu\source\repos\CointelegraphScarp\CointelegraphScarp\WebScarp.DataAccess\bin\Debug\net6.0\ref\WebScarp.DataAccess.dll
+C:\Users\muzeyyen.sanioglu\source\repos\CointelegraphScarp\CointelegraphScarp\WebScarp.DataAccess\bin\Debug\net6.0\WebScarp.DataAccess.pdb
+C:\Users\muzeyyen.sanioglu\source\repos\CointelegraphScarp\CointelegraphScarp\WebScarp.DataAccess\bin\Debug\net6.0\WebScarp.Entities.dll
+C:\Users\muzeyyen.sanioglu\source\repos\CointelegraphScarp\CointelegraphScarp\WebScarp.DataAccess\bin\Debug\net6.0\WebScarp.Entities.pdb
+C:\Users\muzeyyen.sanioglu\source\repos\CointelegraphScarp\CointelegraphScarp\WebScarp.DataAccess\obj\Debug\net6.0\WebScarp.DataAccess.csproj.CopyComplete
+C:\Users\muzeyyen.sanioglu\source\repos\CointelegraphScarp\CointelegraphScarp\WebScarp.DataAccess\obj\Debug\net6.0\WebScarp.DataAccess.dll
+C:\Users\muzeyyen.sanioglu\source\repos\CointelegraphScarp\CointelegraphScarp\WebScarp.DataAccess\obj\Debug\net6.0\ref\WebScarp.DataAccess.dll
+C:\Users\muzeyyen.sanioglu\source\repos\CointelegraphScarp\CointelegraphScarp\WebScarp.DataAccess\obj\Debug\net6.0\WebScarp.DataAccess.pdb
+C:\Users\muzeyyen.sanioglu\source\repos\CointelegraphScarp\CointelegraphScarp\WebScarp.DataAccess\bin\Debug\net6.0\WebScarp.Common.dll
+C:\Users\muzeyyen.sanioglu\source\repos\CointelegraphScarp\CointelegraphScarp\WebScarp.DataAccess\bin\Debug\net6.0\WebScarp.Common.pdb

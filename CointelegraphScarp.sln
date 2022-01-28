@@ -3,7 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CointelegraphScarp", "CointelegraphScarp\CointelegraphScarp.csproj", "{805AE344-373C-4566-B382-D51C68D36185}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CointelegraphScarp.API", "CointelegraphScarp\CointelegraphScarp.API.csproj", "{805AE344-373C-4566-B382-D51C68D36185}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebScarp.Entities", "WebScarp.Entities\WebScarp.Entities.csproj", "{8D7530A1-9728-4AA6-B9A9-6C8B1D83842B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebScarp.DataAccess", "WebScarp.DataAccess\WebScarp.DataAccess.csproj", "{0DFC792F-DA17-4DF5-9267-EB1936A5CB36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebScarp.Bussıness", "WebScarp.Bussıness\WebScarp.Bussıness.csproj", "{5B84951E-AFD7-466B-AAE7-639E91EBAB19}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ConsoleApps", "ConsoleApps", "{3F996E12-1214-4984-97C0-5C3B717A8F60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebScaler.Cointelegraph.API", "WebScaler.Cointelegraph.API\WebScaler.Cointelegraph.API.csproj", "{CD7F6872-5962-4E1C-93F0-10112E4DB24F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebScarp.Common", "WebScarp.Common\WebScarp.Common.csproj", "{5A8F9889-616E-4AE1-987B-38105ABFF43A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +27,32 @@ Global
 		{805AE344-373C-4566-B382-D51C68D36185}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{805AE344-373C-4566-B382-D51C68D36185}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{805AE344-373C-4566-B382-D51C68D36185}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D7530A1-9728-4AA6-B9A9-6C8B1D83842B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D7530A1-9728-4AA6-B9A9-6C8B1D83842B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D7530A1-9728-4AA6-B9A9-6C8B1D83842B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D7530A1-9728-4AA6-B9A9-6C8B1D83842B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DFC792F-DA17-4DF5-9267-EB1936A5CB36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DFC792F-DA17-4DF5-9267-EB1936A5CB36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DFC792F-DA17-4DF5-9267-EB1936A5CB36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DFC792F-DA17-4DF5-9267-EB1936A5CB36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B84951E-AFD7-466B-AAE7-639E91EBAB19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B84951E-AFD7-466B-AAE7-639E91EBAB19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B84951E-AFD7-466B-AAE7-639E91EBAB19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B84951E-AFD7-466B-AAE7-639E91EBAB19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD7F6872-5962-4E1C-93F0-10112E4DB24F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD7F6872-5962-4E1C-93F0-10112E4DB24F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD7F6872-5962-4E1C-93F0-10112E4DB24F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD7F6872-5962-4E1C-93F0-10112E4DB24F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A8F9889-616E-4AE1-987B-38105ABFF43A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A8F9889-616E-4AE1-987B-38105ABFF43A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A8F9889-616E-4AE1-987B-38105ABFF43A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A8F9889-616E-4AE1-987B-38105ABFF43A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CD7F6872-5962-4E1C-93F0-10112E4DB24F} = {3F996E12-1214-4984-97C0-5C3B717A8F60}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DD7BBBD4-1D28-44FC-A651-B30C08A2C4E5}

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "q55qggNpQiH1CKBw8JtGM0SJBJnZlQUsXnSOvufLKY4GHHrpkoOPijhoIPYefE/+UsH0zbbjTXS25baA8S6WtA==",
+  "dgSpecHash": "CtKX7loQA/xvZEja2s4C8qKwo3uk5tFEuCu1aYC+BqYZCiNyTAIzEhhCTyVeCUHjN9ahm7gDhzfq/bx2mgpuIw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\muzeyyen.sanioglu\\source\\repos\\CointelegraphScarp\\CointelegraphScarp\\CointelegraphScarp\\CointelegraphScarp.csproj",
+  "projectFilePath": "C:\\Users\\muzeyyen.sanioglu\\source\\repos\\CointelegraphScarp\\CointelegraphScarp\\CointelegraphScarp\\CointelegraphScarp.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\muzeyyen.sanioglu\\.nuget\\packages\\dnsclient\\1.4.0\\dnsclient.1.4.0.nupkg.sha512",
     "C:\\Users\\muzeyyen.sanioglu\\.nuget\\packages\\dotnetseleniumextras.waithelpers\\3.11.0\\dotnetseleniumextras.waithelpers.3.11.0.nupkg.sha512",

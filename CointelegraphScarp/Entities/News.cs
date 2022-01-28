@@ -13,7 +13,7 @@ namespace CointelegraphScarp.Entities
         [BsonId]
         [BsonRepresentation(MongoDB.Bson.BsonType.ObjectId)]
         public ObjectId ID { get; set; }
-        public string Head { get; set; }
-        public string Contents { get; set; }
+        public string Head { get; set; } = null!;
+        public string Contents { get; set; } = null!;
     }
 }

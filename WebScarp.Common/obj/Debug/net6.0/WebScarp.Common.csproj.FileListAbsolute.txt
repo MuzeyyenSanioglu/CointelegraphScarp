@@ -1,0 +1,12 @@
+C:\Users\muzeyyen.sanioglu\source\repos\CointelegraphScarp\CointelegraphScarp\WebScarp.Common\bin\Debug\net6.0\WebScarp.Common.deps.json
+C:\Users\muzeyyen.sanioglu\source\repos\CointelegraphScarp\CointelegraphScarp\WebScarp.Common\bin\Debug\net6.0\WebScarp.Common.dll
+C:\Users\muzeyyen.sanioglu\source\repos\CointelegraphScarp\CointelegraphScarp\WebScarp.Common\bin\Debug\net6.0\ref\WebScarp.Common.dll
+C:\Users\muzeyyen.sanioglu\source\repos\CointelegraphScarp\CointelegraphScarp\WebScarp.Common\bin\Debug\net6.0\WebScarp.Common.pdb
+C:\Users\muzeyyen.sanioglu\source\repos\CointelegraphScarp\CointelegraphScarp\WebScarp.Common\obj\Debug\net6.0\WebScarp.Common.csproj.AssemblyReference.cache
+C:\Users\muzeyyen.sanioglu\source\repos\CointelegraphScarp\CointelegraphScarp\WebScarp.Common\obj\Debug\net6.0\WebScarp.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\muzeyyen.sanioglu\source\repos\CointelegraphScarp\CointelegraphScarp\WebScarp.Common\obj\Debug\net6.0\WebScarp.Common.AssemblyInfoInputs.cache
+C:\Users\muzeyyen.sanioglu\source\repos\CointelegraphScarp\CointelegraphScarp\WebScarp.Common\obj\Debug\net6.0\WebScarp.Common.AssemblyInfo.cs
+C:\Users\muzeyyen.sanioglu\source\repos\CointelegraphScarp\CointelegraphScarp\WebScarp.Common\obj\Debug\net6.0\WebScarp.Common.csproj.CoreCompileInputs.cache
+C:\Users\muzeyyen.sanioglu\source\repos\CointelegraphScarp\CointelegraphScarp\WebScarp.Common\obj\Debug\net6.0\WebScarp.Common.dll
+C:\Users\muzeyyen.sanioglu\source\repos\CointelegraphScarp\CointelegraphScarp\WebScarp.Common\obj\Debug\net6.0\ref\WebScarp.Common.dll
+C:\Users\muzeyyen.sanioglu\source\repos\CointelegraphScarp\CointelegraphScarp\WebScarp.Common\obj\Debug\net6.0\WebScarp.Common.pdb

@@ -1691,9 +1691,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\muzeyyen.sanioglu\\source\\repos\\CointelegraphScarp\\CointelegraphScarp\\CointelegraphScarp\\CointelegraphScarp.csproj",
-      "projectName": "CointelegraphScarp",
-      "projectPath": "C:\\Users\\muzeyyen.sanioglu\\source\\repos\\CointelegraphScarp\\CointelegraphScarp\\CointelegraphScarp\\CointelegraphScarp.csproj",
+      "projectUniqueName": "C:\\Users\\muzeyyen.sanioglu\\source\\repos\\CointelegraphScarp\\CointelegraphScarp\\CointelegraphScarp\\CointelegraphScarp.API.csproj",
+      "projectName": "CointelegraphScarp.API",
+      "projectPath": "C:\\Users\\muzeyyen.sanioglu\\source\\repos\\CointelegraphScarp\\CointelegraphScarp\\CointelegraphScarp\\CointelegraphScarp.API.csproj",
       "packagesPath": "C:\\Users\\muzeyyen.sanioglu\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\muzeyyen.sanioglu\\source\\repos\\CointelegraphScarp\\CointelegraphScarp\\CointelegraphScarp\\obj\\",
       "projectStyle": "PackageReference",

@@ -1,0 +1,348 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\muzeyyen.sanioglu\\source\\repos\\CointelegraphScarp\\CointelegraphScarp\\WebScaler.Cointelegraph.API\\WebScaler.Cointelegraph.API.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\muzeyyen.sanioglu\\source\\repos\\CointelegraphScarp\\CointelegraphScarp\\WebScaler.Cointelegraph.API\\WebScaler.Cointelegraph.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\muzeyyen.sanioglu\\source\\repos\\CointelegraphScarp\\CointelegraphScarp\\WebScaler.Cointelegraph.API\\WebScaler.Cointelegraph.API.csproj",
+        "projectName": "WebScaler.Cointelegraph.API",
+        "projectPath": "C:\\Users\\muzeyyen.sanioglu\\source\\repos\\CointelegraphScarp\\CointelegraphScarp\\WebScaler.Cointelegraph.API\\WebScaler.Cointelegraph.API.csproj",
+        "packagesPath": "C:\\Users\\muzeyyen.sanioglu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\muzeyyen.sanioglu\\source\\repos\\CointelegraphScarp\\CointelegraphScarp\\WebScaler.Cointelegraph.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\muzeyyen.sanioglu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\muzeyyen.sanioglu\\source\\repos\\CointelegraphScarp\\CointelegraphScarp\\WebScarp.Bussıness\\WebScarp.Bussıness.csproj": {
+                "projectPath": "C:\\Users\\muzeyyen.sanioglu\\source\\repos\\CointelegraphScarp\\CointelegraphScarp\\WebScarp.Bussıness\\WebScarp.Bussıness.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "DotNetSeleniumExtras.WaitHelpers": {
+              "target": "Package",
+              "version": "[3.11.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[97.0.4692.7100, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\muzeyyen.sanioglu\\source\\repos\\CointelegraphScarp\\CointelegraphScarp\\WebScarp.Bussıness\\WebScarp.Bussıness.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\muzeyyen.sanioglu\\source\\repos\\CointelegraphScarp\\CointelegraphScarp\\WebScarp.Bussıness\\WebScarp.Bussıness.csproj",
+        "projectName": "WebScarp.Bussıness",
+        "projectPath": "C:\\Users\\muzeyyen.sanioglu\\source\\repos\\CointelegraphScarp\\CointelegraphScarp\\WebScarp.Bussıness\\WebScarp.Bussıness.csproj",
+        "packagesPath": "C:\\Users\\muzeyyen.sanioglu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\muzeyyen.sanioglu\\source\\repos\\CointelegraphScarp\\CointelegraphScarp\\WebScarp.Bussıness\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\muzeyyen.sanioglu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\muzeyyen.sanioglu\\source\\repos\\CointelegraphScarp\\CointelegraphScarp\\WebScarp.DataAccess\\WebScarp.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\muzeyyen.sanioglu\\source\\repos\\CointelegraphScarp\\CointelegraphScarp\\WebScarp.DataAccess\\WebScarp.DataAccess.csproj"
+              },
+              "C:\\Users\\muzeyyen.sanioglu\\source\\repos\\CointelegraphScarp\\CointelegraphScarp\\WebScarp.Entities\\WebScarp.Entities.csproj": {
+                "projectPath": "C:\\Users\\muzeyyen.sanioglu\\source\\repos\\CointelegraphScarp\\CointelegraphScarp\\WebScarp.Entities\\WebScarp.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[97.0.4692.7100, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\muzeyyen.sanioglu\\source\\repos\\CointelegraphScarp\\CointelegraphScarp\\WebScarp.Common\\WebScarp.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\muzeyyen.sanioglu\\source\\repos\\CointelegraphScarp\\CointelegraphScarp\\WebScarp.Common\\WebScarp.Common.csproj",
+        "projectName": "WebScarp.Common",
+        "projectPath": "C:\\Users\\muzeyyen.sanioglu\\source\\repos\\CointelegraphScarp\\CointelegraphScarp\\WebScarp.Common\\WebScarp.Common.csproj",
+        "packagesPath": "C:\\Users\\muzeyyen.sanioglu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\muzeyyen.sanioglu\\source\\repos\\CointelegraphScarp\\CointelegraphScarp\\WebScarp.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\muzeyyen.sanioglu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\muzeyyen.sanioglu\\source\\repos\\CointelegraphScarp\\CointelegraphScarp\\WebScarp.DataAccess\\WebScarp.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\muzeyyen.sanioglu\\source\\repos\\CointelegraphScarp\\CointelegraphScarp\\WebScarp.DataAccess\\WebScarp.DataAccess.csproj",
+        "projectName": "WebScarp.DataAccess",
+        "projectPath": "C:\\Users\\muzeyyen.sanioglu\\source\\repos\\CointelegraphScarp\\CointelegraphScarp\\WebScarp.DataAccess\\WebScarp.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\muzeyyen.sanioglu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\muzeyyen.sanioglu\\source\\repos\\CointelegraphScarp\\CointelegraphScarp\\WebScarp.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\muzeyyen.sanioglu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\muzeyyen.sanioglu\\source\\repos\\CointelegraphScarp\\CointelegraphScarp\\WebScarp.Common\\WebScarp.Common.csproj": {
+                "projectPath": "C:\\Users\\muzeyyen.sanioglu\\source\\repos\\CointelegraphScarp\\CointelegraphScarp\\WebScarp.Common\\WebScarp.Common.csproj"
+              },
+              "C:\\Users\\muzeyyen.sanioglu\\source\\repos\\CointelegraphScarp\\CointelegraphScarp\\WebScarp.Entities\\WebScarp.Entities.csproj": {
+                "projectPath": "C:\\Users\\muzeyyen.sanioglu\\source\\repos\\CointelegraphScarp\\CointelegraphScarp\\WebScarp.Entities\\WebScarp.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.14.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\muzeyyen.sanioglu\\source\\repos\\CointelegraphScarp\\CointelegraphScarp\\WebScarp.Entities\\WebScarp.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\muzeyyen.sanioglu\\source\\repos\\CointelegraphScarp\\CointelegraphScarp\\WebScarp.Entities\\WebScarp.Entities.csproj",
+        "projectName": "WebScarp.Entities",
+        "projectPath": "C:\\Users\\muzeyyen.sanioglu\\source\\repos\\CointelegraphScarp\\CointelegraphScarp\\WebScarp.Entities\\WebScarp.Entities.csproj",
+        "packagesPath": "C:\\Users\\muzeyyen.sanioglu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\muzeyyen.sanioglu\\source\\repos\\CointelegraphScarp\\CointelegraphScarp\\WebScarp.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\muzeyyen.sanioglu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.14.1, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.14.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
